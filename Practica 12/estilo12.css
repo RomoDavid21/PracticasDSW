@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header, nav, footer, #contenedor {
+  width: 100%;
+}
+
+header, footer, nav{
+  height: 8%;
+  border: 1px solid;
+}
+
+header, nav{
+  background-color: rgb(2, 201, 2);
+
+}
+
+nav{
+  margin-top: 30px;
+}
+
+footer{
+  background-color: pink;
+}
+
+article, section{
+  height: 90%;
+  border: 1px solid;
+  margin-top: 30px;
+}
+article{
+  width: 20%;
+  background: turquoise;
+}
+section{
+  width: 50%;
+  background: yellow;
+}
+#contenedor {
+  display: flex;
+  justify-content: space-around;
+  height: 71.5%;
+  margin-top: 35px;
+  border: 1px solid;
+}
+body {
+  height: 95vh;
+}
