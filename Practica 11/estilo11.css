@@ -1,0 +1,60 @@
+* {
+  background-color: khaki;
+  padding: 0;
+  margin: 0;
+}
+
+#Encabezado, #Menu, #Contenedor, #Pie{
+  width: 98%;
+}
+
+#Encabezado{
+  height: 8%;
+  background-color: rgb(123, 249, 123);
+  margin-left: 15px;
+  margin-top: 10px;
+  border: 1px solid;
+}
+
+#Menu{
+  height: 5%;
+  background-color: rgb(64, 183, 64);
+  margin-left: 15px;
+  margin-top: 10px;
+  border: 1px solid;
+}
+
+#Pie{
+  height: 8%;
+  background-color: plum;
+  margin-left: 15px;
+  border: 1px solid;
+}
+
+#Contenedor {
+  display: flex;
+  justify-content: space-around;
+  height: 85%;
+  margin-left: 15px;
+  border: 1px solid;
+}
+
+#Publicidad, #Link{
+  height: 90%;
+  background-color: turquoise;
+  width: 20%;
+  border: 1px solid;
+  margin-top: 35px;
+}
+
+#Contenido{
+  height: 90%;
+  background-color: yellow;
+  width: 50%;
+  border: 1px solid;
+  margin-top: 35px;
+}
+
+body {
+  height: 90vh;
+}
