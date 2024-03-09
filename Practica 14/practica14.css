@@ -1,0 +1,46 @@
+#uno{
+  height: 2cm;
+  width: 2cm;
+}
+#dos{
+  height: 50mm;
+  width:  50mm
+}
+#tres{
+height: 6in;
+width:  6in;
+}
+#cuatro{
+  height: 500px;
+  width: 1000px;
+}
+#texto{
+  font-size: 500pt;
+
+}
+#texto1{
+  font-size: 20pc;
+}
+#texto2{
+  font-size: 10em;
+}
+#texto3{
+  font-size: 15ex;
+}
+#texto4{
+  font-size: 10rem;
+}
+#cinco{
+  width: 50vw;
+}
+#seis{
+  height: 50vh;
+}
+#siete{
+  height: 40vmax;
+  width: auto;
+}
+#ocho{
+  height: auto;
+  width: 50vmin;
+}
