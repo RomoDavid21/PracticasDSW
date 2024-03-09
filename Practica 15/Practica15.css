@@ -1,0 +1,44 @@
+p::first-line { color: rgb(208,76, 255); }
+p::first-letter { font-size:40px; color: rgb(0, 115, 255);}
+p::after { content: "."; }
+p::selection { background:pink; }
+
+tr:nth-child(2n){
+  background: skyblue;
+}
+
+section p:nth-last-child(2n+1){
+  background: gray;
+}
+
+ul li{
+  border-bottom: 1px dotted #7a3838;
+  font-size: 50px;
+}
+li:first-child{
+  border-top: 1px dotted #AF0;
+  background-color: #AF0;
+  border-bottom: none;
+  list-style-type: square;
+}
+
+li last-child{
+  color: rgb(34, 255, 0);
+  list-style-type: square;
+}
+
+section p:nth-of-type(2){
+  background: rgb(178, 157, 125);
+}
+
+em:nth-last-of-type(2){
+  background: rgb(178, 125, 169);
+}
+
+td:empty{
+  background: rgb(121, 129, 161);
+}
+
+a :visited{
+  color: rgb(155, 165, 42);
+}
