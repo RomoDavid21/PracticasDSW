@@ -1,0 +1,59 @@
+/*David Gustavo Romo Lopez*/
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  header, nav, footer{
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: darkgray;
+    margin-top: 20px;
+    font-size:xx-large;
+    text-align: center;
+  }
+
+  #contenedor{
+    width: 70%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  section{
+    width: 65%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: darkgray;
+  }
+
+  aside{
+    width: 30%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: darkgray;
+  }
+
+  .articulos1{
+    width: 90%;
+    height: 30%;
+    border-radius: 5px;
+    background-color: gray;
+    margin-left: 40px;
+    margin-top: 8px;
+    font-size:xx-large;
+    text-align: center;
+  }
+
+  .articulos2{
+    width: 90%;
+    height: 30%;
+    border-radius: 5px;
+    background-color: gray;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-size:xx-large;
+    text-align: center;
+  }
